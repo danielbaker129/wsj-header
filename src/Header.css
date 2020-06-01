@@ -1,0 +1,38 @@
+.title {
+    width: 100vw;
+    height: 6.5vw;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+.smallTitle {
+    display: none;
+}
+
+p {
+    font-size: 15px;
+}
+
+.NavItem {
+    color: red;
+}
+@media screen and (max-width: 575px) {
+    .title {
+        background-color: white;
+        font-size: 15px;
+        color: black;
+        height: 10vw;
+        display: none;
+    }
+    p {
+        font-size: 10px;
+        color: white;
+        display: none;
+    }
+
+    .smallTitle {
+        color: black;
+        display: inline;
+    }
+}
+
